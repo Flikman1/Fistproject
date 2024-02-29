@@ -155,5 +155,5 @@ shape = SubResource("RectangleShape2D_1iht5")
 [connection signal="body_entered" from="Detector" to="." method="_on_detector_body_entered"]
 [connection signal="body_exited" from="Detector" to="." method="_on_detector_body_exited"]
 [connection signal="body_entered" from="Death" to="." method="_on_death_body_entered"]
-[connection signal="body_entered" from="Death2" to="." method="_on_death_2_body_entered"]
 [connection signal="body_entered" from="Death2" to="." method="_on_area_2d_body_entered"]
+[connection signal="body_entered" from="Death2" to="." method="_on_death_2_body_entered"]
